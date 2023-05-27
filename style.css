@@ -35,6 +35,26 @@ header{
     list-style-type: none;
     font-size: 16px;
 }
+.navbar-link{
+    position: relative;
+    padding: 5px;
+}
+.navbar-link::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #FF00E6;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+    border-radius: 100px;
+}
+.navbar-link:hover::after{
+    width: 100%;
+    right: 0;
+}
 .btn-nav{
     background-color: #FF00E6;
     padding: 10px;

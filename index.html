@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="imagenes/gamerzone-logo.ico" type="image/x-icon">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>GAMER ZONE</title>
 </head>
 <body>
@@ -14,26 +16,26 @@
     <img class="header-logo" src="imagenes/1.png" alt="header-logo">
     <nav class="navbar">
         <ul class="navbar-list">
-            <li class="navbar-link"><a href="#">Inicio</a></li>
-            <li class="navbar-link"><a href="#">Sobre Nosotros</a></li>
-            <li class="navbar-link"><a href="#">Contacto</a></li>
-            <li class="navbar-link"><a href="#">Productos</a></li>
+            <li class="navbar-link"><a href="#inicio">Inicio</a></li>
+            <li class="navbar-link"><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li class="navbar-link"><a href="#contacto">Contacto</a></li>
+            <li class="navbar-link"><a href="#productos">Productos</a></li>
             <a class="btn-nav" href="http://127.0.0.1:5500/iniciosesion.html?txt=efwef&email=qwdqw%40homama.com&pswd=hola+como"><img src="imagenes/acceso.png">Iniciar sesión</a>
         </ul>
         <img class="nav-cart" src="imagenes/icons8-shopping-cart-64.png" alt="cart-header">
     </nav>
 </header>
 <main>
-    <section class="title">
-        <h1>GAMER ZONE</h1>
-        <p>¡TU DESTINO PARA LA TECNOLOGIA GAMER DEFINITIVA!</p>
+    <section class="title" id="inicio">
+        <h1 class="animate__animated animate__backInLeft">GAMER ZONE</h1>
+        <p class="animate__animated animate__backInRight">¡TU DESTINO PARA LA TECNOLOGIA GAMER DEFINITIVA!</p>
     </section>
     <section class="img-title">
-        <img src="imagenes/5.png" alt="headphones-img-title">
-        <img src="imagenes/4.png" alt="contol-img-title">
-        <img src="imagenes/3.png" alt="pc-img-title">
+        <img class="animate__animated animate__zoomIn" src="imagenes/5.png" alt="headphones-img-title">
+        <img class="animate__animated animate__zoomIn" src="imagenes/4.png" alt="contol-img-title">
+        <img class="animate__animated animate__zoomIn" src="imagenes/3.png" alt="pc-img-title">
     </section>
-    <article class="sobre-nosotros">
+    <article class="sobre-nosotros" id="sobre-nosotros">
         <div class="info-1">
         <p>GAMER ZONE es tu destino de confianza para descubrir los mejores productos y accesorios gamers. Nos esforzamos por ofrecerte una amplia variedad de
             productos, desde poderosas tarjetas gráficas y teclados mecánicos hasta auriculares de última generación y sillas ergonómicas. Trabajamos en estrecha colaboración con marcas líderes en la industria para asegurarnos de que encuentres los productos más punteros y vanguardistas en nuestra tienda.</p>
@@ -43,8 +45,8 @@
         <p>Además de ofrecerte los mejores productos gamers, también nos enorgullece brindar un servicio excepcional a nuestros clientes. Nuestro equipo de expertos está aquí para responder a tus preguntas, asesorarte en tus compras y brindarte recomendaciones personalizadas. Valoramos tu satisfacción y nos comprometemos a garantizar que tengas una experiencia de compra sin complicaciones y totalmente satisfactoria.</p>
         </div>    
     </article>
-    <section class="productos">
-        <h1>PRODUCTOS</h1>
+    <section class="productos" id="productos">
+        <h1 class="animate__animated animate__fadeInUp">PRODUCTOS</h1>
         <div class="categorias">
             <a href="#" class="btn-neon"><span id="span1"></span>Todos</a>
             <a href="#" class="btn-neon"><span id="span1"></span>Teclados</a>
@@ -202,23 +204,23 @@
      </section> 
      <section>
         <section>
-            <div class="contacto">
-                <div class="info-contacto">
-                    <h2>Contacto</h2>
-                    <p>Buenos aires, Argentina</p>
-                    <ul class="ul-info">
-                        <li><img src="imagenes/icons8-google-maps-50.png"> La plata Nº1896</li>
-                        <li><img src="imagenes/icons8-mail-50.png"><a href="mailto:GamerZone@gmail.com">GamerZone@gmail.com</a></li>
-                        <li><img src="imagenes/icons8-ringer-volume-50.png"> 011 2213754587</li>
-                    </ul>
-                    <ul class="redes-sociales">
-                        <li><a href="https://twitter.com/?lang=es"><img src="imagenes/twitter.png" alt="twitter"></a></li>
-                        <li><a href="https://www.instagram.com/"><img src="imagenes/instagram.png" alt="instagram"></a></li>
-                        <li><a href="https://es-la.facebook.com/"><img src="imagenes/facebook.png" alt="facebook"></a></li>
-                    </ul>
-                </div>
-                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31122.944913490635!2d-57.95437825115156!3d-34.921589126647966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1683312091516!5m2!1ses-419!2sar"></iframe>
-            </div>
+     <div class="contacto" id="contacto">
+        <div class="info-contacto">
+                <h2>Contacto</h2>
+                <p>Buenos aires, Argentina</p>
+                <ul class="ul-info">
+                    <li><img src="imagenes/icons8-google-maps-50.png"> La plata Nº1896</li>
+                    <li><img src="imagenes/icons8-mail-50.png"><a href="mailto:GamerZone@gmail.com">GamerZone@gmail.com</a></li>
+                    <li><img src="imagenes/icons8-ringer-volume-50.png"> 011 2213754587</li>
+                </ul>
+                <ul class="redes-sociales">
+                    <li><a href="https://twitter.com/?lang=es"><img src="imagenes/twitter.png" alt="twitter"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="imagenes/instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://es-la.facebook.com/"><img src="imagenes/facebook.png" alt="facebook"></a></li>
+                </ul>
+        </div>
+             <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31122.944913490635!2d-57.95437825115156!3d-34.921589126647966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1683312091516!5m2!1ses-419!2sar"></iframe>
+        </div>
         </section>
      </section> 
 </main>
