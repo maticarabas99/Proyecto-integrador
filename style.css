@@ -15,7 +15,6 @@ header{
     height: 100px;
     width:  100%;
     background-color: black;
-    padding: 0 50px;
 
 }
 .header-logo{
@@ -24,8 +23,9 @@ header{
 }
 .navbar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 35px;
+    width: 100%;
 }
 .navbar-list{
     display: flex;
@@ -81,9 +81,8 @@ ul a{
     margin: 60px;
 }
 .title h1{
-    font-size: 80px;
+    font-size: 90px;
     color: #FF00E6;
-    font-family: 'Kalam', cursive;
 }
 .title p{
     color: white;
@@ -165,6 +164,8 @@ padding: 10px 15px;
 
 }
 .card{
+    height: 250px;
+    width:  250px;
     margin: 10px;
     background-color: #ffffff;
     color: black;
@@ -196,8 +197,11 @@ padding: 10px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 .info-card button{
+    margin: 10px;
     padding: 8px;
     border-radius: 10px;
     background-color: black;
@@ -280,6 +284,86 @@ padding: 10px 15px;
 .contenedor a{
     text-decoration: none;
     color: #FF00E6;
+}
+@media (max-width: 992px){
+    .navbar-link:hover::after{
+        display: none;
+    }
+    .navbar-link:hover::before{
+        display: none;
+        height: 0px;
+    }
+    .img-title{
+        gap: 0;
+    }
+    .btn-neon:hover{
+       display: none;
+     }
+     .card:hover{
+        background: #ffffff;
+        box-shadow: 0 0 0px #FF00E6, 0 0 0px #FF00E6, 0 0 0px #FF00E6;
+        transition-delay: none;
+     }
+     .contacto{
+        gap: 90px;
+     }
+}
+@media (max-width: 576px){
+    .title{
+        margin: 50px;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+    .title p{
+        font-size: 10px;
+    }
+    .img-title img{
+        height: 100px;
+        margin: 20px;
+    }
+    .sobre-nosotros{
+        font-size: 15px;
+        justify-content: center;
+    }
+    .info-1{
+        flex-direction: column;
+        margin: 0;
+    }
+    .info-2{
+        margin: 0;
+    }
+    .productos h1{
+        font-size: 60px;
+    }
+    .btn-neon{
+        margin: 0;
+        padding: 10px 7px;
+        font-size: 12px;
+    }
+    .card{
+        height: 180px;
+        width:  200px;
+        margin: 5px 0;
+    }
+    .producto-img{
+        height: 80px;
+    }
+    .info-card{
+        padding: 0;
+    }
+    .info-card h3{
+        font-size: 15px;
+    }
+    .info-card p{
+        font-size: 18px;
+    }
+    .info-card button{
+        font-size: 8px;
+    }
+    .contacto{
+        flex-direction: column;
+    }
 }
 
 
