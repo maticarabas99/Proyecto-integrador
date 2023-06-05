@@ -358,7 +358,7 @@ padding: 10px 15px;
         font-size: 15px;
        }
     .title{
-        margin: 80px;
+        margin: 80px 0px;
     }
     .title h1{
         font-size: 60px;
@@ -368,6 +368,7 @@ padding: 10px 15px;
     }
     .img-title img{
         height: 90px;
+        display: none;
         
     }
     .sobre-nosotros{
