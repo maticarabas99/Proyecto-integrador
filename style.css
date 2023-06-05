@@ -374,6 +374,11 @@ padding: 10px 15px;
     .sobre-nosotros{
         font-size: 15px;
         justify-content: center;
+        padding: 20px;
+
+    }
+    .sobre-nosotros img{
+        height: 200px;
     }
     .info-1{
         flex-direction: column;
@@ -412,6 +417,9 @@ padding: 10px 15px;
     }
     .contacto{
         flex-direction: column;
+    }
+    .mapa{
+        width: 350px;
     }
 }
 
