@@ -10,6 +10,7 @@ body{
     margin: 50px;
     font-family: 'Nunito', sans-serif;
     background-color: #000000;
+	flex-direction: column;
 }
 .main{
 	width: 350px;
@@ -89,4 +90,23 @@ button:hover{
 }
 #chk:checked ~ .crear-cuenta label{
 	transform: scale(.6);
+}
+.back{
+	display: flex;
+	align-items: center;
+	margin: 50px;
+	background-color: #FF00E6;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #FF00E6;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.back img{
+	height: 40px;
 }

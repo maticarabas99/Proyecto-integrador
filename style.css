@@ -339,12 +339,15 @@ padding: 10px 15px;
         height: 100px;
     }
     .btn-neon:hover{
-       display: none;
+        background: #FF00E6;
+        box-shadow: none;
+        display: none;
      }
      .card:hover{
         background: #ffffff;
         box-shadow: 0 0 0px #FF00E6, 0 0 0px #FF00E6, 0 0 0px #FF00E6;
         transition-delay: none;
+        display: none;
      }
      .contacto{
         gap: 90px;
