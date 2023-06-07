@@ -12,21 +12,44 @@
     <title>GAMER ZONE</title>
 </head>
 <body>
-    <header class="header">
-        <img src="imagenes/1.png" class="header-logo" alt="logo">
-        <nav class="navbar">
-          <label for="toggle-menu"><img src="imagenes/icons8-menu-50.png" class="toggle-img"></label>
-          <input type="checkbox" id="toggle-menu">
-          <ul class="navbar-list">
+<header class="header">
+    <img src="imagenes/1.png" class="header-logo" alt="logo">
+    <nav class="navbar">
+    <div>
+        <label for="toggle-menu"><img src="imagenes/icons8-menu-50.png" class="toggle-img"></label>
+        <input type="checkbox" id="toggle-menu">
+        <ul class="navbar-list">
             <li><a href="#inicio" class="navbar-link">Inicio</a></li>
             <li><a href="#sobre-nosotros" class="navbar-link">Sobre Nosotros</a></li>
             <li><a href="#contacto" class="navbar-link">Contacto</a></li>
             <li><a href="#productos" class="navbar-link">Productos</a></li>
             <li><a class="btn-nav" href="iniciosesion.html"><img src="imagenes/acceso.png">Iniciar sesión</a></li>
-          </ul>
-          <label for="carrito"><img src="imagenes/icons8-shopping-cart-64.png" class="carrito">
-          </label>
-          <input type="checkbox" id="carrito">
+        </ul>
+    </div>
+    <div>
+        <label class="cart" for="carrito"><img src="imagenes/icons8-shopping-cart-64.png" class="img-cart"></label>
+        <input type="checkbox" id="carrito">
+        <ol class="cart-info">
+            <li class="cart-list">Productos</li>
+            <li class="cart-list">
+                <ol class="compras">
+                    <li class="compras-info"><img src="imagenes/mouse2.jpeg" alt="producto"></li>
+                    <li class="compras-info">Mouse Serpent</li>
+                    <li class="compras-info"><strong>$</strong>4.000</li>
+                </ol>
+            </li>
+            <li class="cart-list">
+                <ol class="compras">
+                    <li class="compras-info"><img src="imagenes/teclado.5.jpeg" alt="producto"></li>
+                    <li class="compras-info">Teclado furia rgb</li>
+                    <li class="compras-info"><strong>$</strong>6.000</li>
+                </ol>
+            </li>
+            <li class="cart-list"> Total : $10.000</li>
+            <li class="cart-list">Ver Carrito</li>
+            <li class="cart-list">Pagar</li>
+        </ol>
+        </div>
         </nav>
       </header> 
 <main>
